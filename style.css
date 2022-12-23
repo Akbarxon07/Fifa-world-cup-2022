@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+nav{
+    background-color: #550065;
+}
+.nav-link{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 15px;
+}
+.search{
+    background-color: rgba(166, 166, 166, 0.582);
+    padding:10px 15px;
+    border-radius: 50%;
+}
+.bg-color{
+    background-color: #550065;
+}
+.semi-final-card{
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+.main-img{
+    background-image: url(https://digitalhub.fifa.com/transform/98e69640-0ba1-4e2c-8872-63d5f5e6d489/Netherlands-v-Argentina-Quarter-Final-FIFA-World-Cup-Qatar-2022?io=transform:fill,height:576,width:1440&quality=75);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 66vh;
+}
+.main-bg{
+    background: linear-gradient(360deg,#03122b,rgba(3,18,43,0) 90%);
+}
+.loader{
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+    height: 100vh !important;
+    width: 100% !important;
+  
+}
+.imgdiv{
+    background-image: url(sso-sign-in-desktop.png);
+     max-width: 1000px;
+    margin: 30px;
+    background-position: center;
+    background-size: cover;
+    height: 60px;
+}
+.d{
+    margin-left: 300px;
+    color: white;
+}
+.login{
+    background-image: url(sso-sign-in-desktop.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 950px !important;
+    height: auto;
+    margin: 0 auto;
+}
+.btn1{
+    padding: 10px 9px;
+    border: none;
+    background-color: white;
+    color: rgb(232, 56, 241);
+    border-radius: 7px;
+    
+}
+.spn1{
+    margin-top: -10px;
+}
+@media screen and (max-width: 550px){
+    .login{
+        background-image: url(sso-sign-in-mobile.png);
+        background-repeat: no-repeat;
+        height: 37vh;
+    }
+   
+    
+}
+.loading{
+    display: none;
+}
+
+.img-hover-zoom{
+    border-radius: 7px;
+    overflow: hidden;
+}
+.img-hover-zoom img{
+    transition: .5s ease;
+    border-radius: 7px;
+}
+.img-hover-zoom:hover img{
+    transform: scale(1.1);
+}
+
+.third{
+    margin-top: 50px;
+    height: 90vh;
+}
+.h1{
+    margin-top: 500px;
+}
+
+.cardl{
+    background-color: white;
+    height: 140px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.loading{
+    background-color: rgb(238, 238, 228);
+}
+.mainimg{    
+    background-image: url(https://bombardir.ru/images/nut_news/image/4a0c28dd0edec84486c9a3196a29d9fb.jpeg);
+    border-radius: 10px;
+    height: 585px;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-bg1{
+    background: linear-gradient(to right ,#03122b,rgba(3,18,43,0) 90%);
+}
+.text-shadow{
+    text-shadow: 1px 0px 10px black;
+}
+.textla{
+    margin: 0 150px ;
+}
+.footer{
+    background-color: #550065;
+}
